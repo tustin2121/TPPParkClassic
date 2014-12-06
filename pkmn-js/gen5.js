@@ -123,7 +123,79 @@ addEvent(new Pokemon({
 }));
 
 
-// TODO: Bird Moses
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Bird Moses",
+	sprite: "img/pkmn/.png",
+	x: -11, y: 20,
+	
+	dex : "img/pkdx/.png",
+	sources : {
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 1,
+	gamename : "Pidove",
+	pokename : "Pidove",
+	nicknames : "",
+	level : 34,
+	caught : "1d 16h 57m: In Pinwheel Forest at level 15",
+	ball: "poke",
+	memo : "Lead the party while traveling through the Route 4 desert and Desert Resort.",
+	
+	ribbons : [
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "F-30",
+	sprite: "img/pkmn/.png",
+	x: -12, y: 20,
+	
+	dex : "img/pkdx/.png",
+	sources : {
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 1,
+	gamename : "F3O3OO3OGO",
+	pokename : "Pidove",
+	nicknames : "",
+	level : 44,
+	caught : "1d 17h 3m: In Pinwheel Forest at level 15",
+	ball: "premiere",
+	memo : "",
+	
+	ribbons : [
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Mistress Vullaby",
+	sprite: "img/pkmn/.png",
+	x: -13, y: 20,
+	
+	dex : "img/pkdx/b/Spr_5b_629.png",
+	sources : {
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 2,
+	gamename : "GMHM",
+	pokename : "Vullaby",
+	nicknames : "",
+	level : 36,
+	caught : "9d 3h 0m: Route 10",
+	ball: "master",
+	memo : "Jimmy obtained the Master Ball a mere 1h 28m before catching this vullaby.",
+	
+	ribbons : [
+		new Master_Ribbon(),
+	],
+}));
+
 
 addEvent(new Pokemon({
 	name : "Lilly",
@@ -151,6 +223,7 @@ addEvent(new Pokemon({
 		new Released_Ribbon("5d 6h 36m"),
 	],
 }));
+
 addEvent(new Pokemon({
 	name : "Lord Cover",
 	sprite: "img/pkmn/cover.png",
@@ -206,11 +279,124 @@ addEvent(new Pokemon({
 }));
 
 
-// TODO: The six hall of famers
+addEvent(new Pokemon({
+	name : "Nonon Tympazure",
+	sprite: "img/pkmn/.png",
+	x: 5, y: -34,
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 2,
+	gamename : "NONNQWMMSO",
+	pokename : "Tympole",
+	nicknames : "Anonymous",
+	level : 64,
+	caught : "1d 10h 1m: in Pinwheel Forest at level 12",
+	ball: "great",
+	memo : "The sole survivor of two party-destroying events. ",
+	
+	ribbons : [
+		new Pokerus_Ribbon(),
+		new HallOfFame_Ribbon("12d 18h 21m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "fives",
+	sprite: "img/pkmn/.png",
+	x: -13, y: 20,
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 2,
+	gamename : "5",
+	pokename : "Deerling",
+	nicknames : "",
+	level : 63,
+	caught : "5d 12h 48m: in Route 7 at level 26",
+	ball: "poke",
+	memo : "Her high-risk battle style allows her to deal massive damage to the strongest of foes, but she is usually KO'd before she can finish the job.",
+	
+	ribbons : [
+		new Pokerus_Ribbon(),
+		new HallOfFame_Ribbon("12d 18h 21m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Drew",
+	sprite: "img/pkmn/.png",
+	x: -14, y: 20,
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 1,
+	gamename : "Dru",
+	pokename : "Druddigon",
+	nicknames : "Dr. Dru",
+	level : 68,
+	caught : "7d 5h 59m: in Dragonspiral Tower at level 31",
+	ball: "great",
+	memo : "",
+	
+	ribbons : [
+		new HallOfFame_Ribbon("12d 18h 21m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Bird Matt",
+	sprite: "img/pkmn/.png",
+	x: -15, y: 20,
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 1,
+	gamename : "QQQQ",
+	pokename : "Tranquill",
+	nicknames : "Quadquill, 4Q",
+	level : 56,
+	caught : "", // 7.8/10 too many Tranquills - I can't tell from the live updater which capture was this one.
+	ball: "poke",
+	memo : "Incredibly lucky. His ability gave him a higher crit ratio, and he had a nack for dodging Rock moves at just the right time.",
+	
+	ribbons : [
+		new Pokerus_Ribbon(),
+		new HallOfFame_Ribbon("12d 18h 21m"),
+	],
+}));
 
 
 // Jimmy!!
 addEvent(new Trainer({
+	skipme: true,
 	name : "GMYC&nbsp;&nbsp;",
 	spritesheet : "img/trainers/napoleon.png",
 	x: -15, y: 20,
