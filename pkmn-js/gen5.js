@@ -281,7 +281,7 @@ addEvent(new Pokemon({
 
 addEvent(new Pokemon({
 	name : "Nonon Tympazure",
-	sprite: "img/pkmn/.png",
+	sprite: "img/pkmn/tympole.png",
 	x: 5, y: -34,
 	adj_flip: true,
 	
@@ -305,6 +305,9 @@ addEvent(new Pokemon({
 		new Pokerus_Ribbon(),
 		new HallOfFame_Ribbon("12d 18h 21m"),
 	],
+}).forOccasion("bloodysunday", {
+	x: 9, y: -10,
+	adj_flip: false,
 }));
 
 addEvent(new Pokemon({
@@ -386,6 +389,64 @@ addEvent(new Pokemon({
 	caught : "", // 7.8/10 too many Tranquills - I can't tell from the live updater which capture was this one.
 	ball: "poke",
 	memo : "Incredibly lucky. His ability gave him a higher crit ratio, and he had a nack for dodging Rock moves at just the right time.",
+	
+	ribbons : [
+		new Pokerus_Ribbon(),
+		new HallOfFame_Ribbon("12d 18h 21m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Sparky",
+	sprite: "img/pkmn/.png",
+	x: -17, y: 20,
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 1,
+	gamename : "&nbsp;&nbsp;&nbsp;&nbsp;&quot;☀☀☀",
+	pokename : "Joltik",
+	nicknames : "Peter Sparker",
+	level : 69,
+	caught : "5d 7h 54m: in Mistralton City at Lv 24", 
+	ball: "poke",
+	memo : "",
+	
+	ribbons : [
+		new Pokerus_Ribbon(),
+		new HallOfFame_Ribbon("12d 18h 21m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Mega Henry",
+	sprite: "img/pkmn/.png",
+	x: -15, y: 20,
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 1,
+	gamename : "aMH",
+	pokename : "Zebstrika",
+	nicknames : "Zecoro, Z33kbra",
+	level : 75,
+	caught : "5d 8h 0m: in Route 7 at Lv 29", 
+	ball: "poke",
+	memo : "",
 	
 	ribbons : [
 		new Pokerus_Ribbon(),
