@@ -416,7 +416,6 @@ addEvent(new Trainer({
 	notable: "",
 	ribbons: [
 		new Record_Ribbon("Shortest E4 Run"),
-		new Record_Ribbon("Lowest Release Count"),
 	],
 	
 	icons : [

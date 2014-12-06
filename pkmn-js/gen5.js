@@ -7,13 +7,12 @@
 
 
 
-//Dammit, we've got 5 pokemon for the park ALREADY -_-
-
 //
 // Note: Tepig is attached to the Released Starter Campfire multi-event 
 // defined in the "other" events file. See there for his event definition.
 //
 
+// Murder Monday Victims
 addEvent(new Pokemon({
 	name : "Cat",
 	sprite: "img/pkmn/cat.png",
@@ -122,6 +121,36 @@ addEvent(new Pokemon({
 	],
 }));
 
+
+// Other imporant mons
+
+addEvent(new Pokemon({
+	name : "J VOON",
+	sprite: "img/pkmn/cat.png",
+	x: -4, y: 37,
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/Spr_5b_509.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "GMYC&nbsp;&nbsp;",
+	gender: 2,
+	gamename : "J&nbsp;&nbsp;V00NPQN",
+	pokename : "Purrloin",
+	nicknames : "",
+	level : 8,
+	caught : "0d 1h 31m: in Route 2 at level 4",
+	memo : "Was not murdered durring Murder Monday, but was deposited never to be retrieved while having to deal with her sister.",
+	
+	ribbons : [
+	],
+}).forOccasion("bloodysunday", {
+	x: 9, y: -11,
+	adj_flip: false,
+}));
 
 addEvent(new Pokemon({
 	skipme: true,
@@ -280,6 +309,7 @@ addEvent(new Pokemon({
 
 
 addEvent(new Pokemon({
+	skipme: true,
 	name : "Nonon Tympazure",
 	sprite: "img/pkmn/tympole.png",
 	x: 5, y: -34,
@@ -507,10 +537,4 @@ addEvent(new Trainer({
 	],
 	
 	behavior: behavior.meander,
-	
-	
-	// doClick : function(){
-	// 	Person.fn.doClick.call(this);
-	// 	this.openTrainerCard();
-	// },
 }));
