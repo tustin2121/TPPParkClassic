@@ -12,12 +12,12 @@
 // defined in the "other" events file. See there for his event definition.
 //
 
-// Murder Monday Victims
+
 addEvent(new Pokemon({
 	name : "Cat",
 	sprite: "img/pkmn/cat.png",
-	x: -2, y: 36,
-	adj_flip: true, adj_x: 6,
+	x: -4, y: 36,
+	adj_flip: true, adj_x: -2,
 	
 	dex : "img/pkdx/b/Spr_5b_509.png",
 	sources : {
@@ -43,8 +43,8 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	name : "Puppy",
 	sprite: "img/pkmn/puppy.png",
-	x: -3, y: 36,
-	adj_flip: true, adj_x: 2,
+	x: -2, y: 36,
+	adj_flip: true, adj_x: 6,
 	
 	dex : "img/pkdx/b/Spr_5b_506.png",
 	sources : {
@@ -70,8 +70,8 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	name : "BBQ",
 	sprite: "img/pkmn/bbq.png",
-	x: -4, y: 36,
-	adj_flip: true, adj_x: -2,
+	x: -3, y: 36,
+	adj_flip: true, adj_x: 2,
 	
 	dex : "img/pkdx/b/Spr_5b_511.png",
 	sources : {
@@ -122,13 +122,11 @@ addEvent(new Pokemon({
 }));
 
 
-// Other imporant mons
-
 addEvent(new Pokemon({
 	name : "J VOON",
 	sprite: "img/pkmn/cat.png",
-	x: -4, y: 37,
-	adj_flip: true,
+	x: -4, y: 35,
+	adj_x: 2, adj_y: 2,
 	
 	dex : "img/pkdx/b/Spr_5b_509.png",
 	sources : {
@@ -156,7 +154,7 @@ addEvent(new Pokemon({
 	skipme: true,
 	name : "Bird Moses",
 	sprite: "img/pkmn/.png",
-	x: -11, y: 20,
+	x: 26, y: 17,
 	
 	dex : "img/pkdx/.png",
 	sources : {
@@ -229,7 +227,7 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	name : "Lilly",
 	sprite: "img/pkmn/lilly.png",
-	x: 32, y: 28,
+	x: 35, y: 33,
 	
 	dex : "img/pkdx/bldex_lilly.png",
 	sources : {
@@ -256,7 +254,7 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	name : "Lord Cover",
 	sprite: "img/pkmn/cover.png",
-	x: 30, y: 28,
+	x: 33, y: 33,
 	adj_flip: true,
 	
 	dex : "img/pkdx/bldex_cover.png",
@@ -513,17 +511,16 @@ addEvent(new Trainer({
 		"Fresh water bought: 53+"+
 		"",
 	ribbons: [
-		new Record_Ribbon("Least evolved Hall of Fame team"),
 	],
 	
 	icons : [
-		// new Icon("contest_pass.png", "Where A failed, Napoleon succeeded: he participated, dressed formally in suit and tie, in several Contests. He didn't win any, however."),
+		new Icon("xtransceiver.png", "Once Jimmy recieved the C-Gear, he couldn't stop playing with it. He continuously went to the Entralink until his C-Gear was disabled via divine intervention."),
 	],
 	
 	badges_info : {
 		img: "img/icn/badges_black.png",
-		frame_width: 16,
-		frame_height: 16,
+		frame_width: 15,
+		frame_height: 25,
 	},
 	badges : [
 		new Badge({ name: "Trio Badge", leader: "Cress", type: "Water" }),
