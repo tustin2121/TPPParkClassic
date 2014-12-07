@@ -141,7 +141,7 @@ addEvent(new Pokemon({
 	nicknames : "",
 	level : 8,
 	caught : "0d 1h 31m: in Route 2 at level 4",
-	memo : "Was not murdered durring Murder Monday, but was deposited never to be retrieved while having to deal with her sister.",
+	memo : "Was not murdered during Murder Monday, but was deposited never to be retrieved while having to deal with her sister.",
 	
 	ribbons : [
 	],
@@ -216,7 +216,7 @@ addEvent(new Pokemon({
 	level : 36,
 	caught : "9d 3h 0m: Route 10",
 	ball: "master",
-	memo : "Jimmy obtained the Master Ball a mere 1h 28m before catching this vullaby.",
+	memo : "Jimmy obtained the Master Ball a mere 1h 28m before catching this Vullaby.",
 	
 	ribbons : [
 		new Master_Ribbon(),
@@ -241,9 +241,9 @@ addEvent(new Pokemon({
 	pokename : "Petilil",
 	nicknames : "Princess Lilly",
 	level : 41,
-	caught : "Recieved in a trade: 1d 17h 37m",
+	caught : "Received in a trade: 1d 17h 37m",
 	ball: "poke",
-	memo : "Avid musical participant. Usually seen with red specs.",
+	memo : "Avid musical participant. Most notable appearance included red specs.",
 	
 	ribbons : [
 		new Traded_Ribbon("For Cottonee 1d 17h 37m"),
@@ -271,7 +271,7 @@ addEvent(new Pokemon({
 	level : 36,
 	caught : "Revived from fossil: 3d 6h 18m",
 	ball: "poke",
-	memo : "Avid musical participant. Usually seen wearing a pink bow.",
+	memo : "Avid musical participant. Most notable appearance included a pink bow.",
 	
 	ribbons : [
 		new Released_Ribbon("5d 6h 38m"),
@@ -299,7 +299,7 @@ addEvent(new Pokemon({
 	level : 50,
 	caught : "during the 9th battle: 12d 18h 0m",
 	ball: "dusk",
-	memo : "Was excited to join Jimmy's fight against N, but the Truth that Jimmy fought for required her to stay at the sidelines.",
+	memo : "A forced capture before Jimmy fought N. Despite the option to add it to the party immediately, it was sent to the PC.",
 	
 	ribbons : [
 	],
@@ -388,7 +388,7 @@ addEvent(new Pokemon({
 	level : 68,
 	caught : "7d 5h 59m: in Dragonspiral Tower at level 31",
 	ball: "great",
-	memo : "",
+	memo : "Jimmy caught and used a Druddigon as he was incapable of evolving his mons, and Druddigon does not need to evolve.",
 	
 	ribbons : [
 		new HallOfFame_Ribbon("12d 18h 21m"),
@@ -416,7 +416,7 @@ addEvent(new Pokemon({
 	level : 56,
 	caught : "", // 7.8/10 too many Tranquills - I can't tell from the live updater which capture was this one.
 	ball: "poke",
-	memo : "Incredibly lucky. His ability gave him a higher crit ratio, and he had a nack for dodging Rock moves at just the right time.",
+	memo : "Incredibly lucky. His ability gave him a higher crit ratio, and he had a knack for dodging Rock moves at just the right time.",
 	
 	ribbons : [
 		new Pokerus_Ribbon(),
@@ -514,7 +514,7 @@ addEvent(new Trainer({
 	],
 	
 	icons : [
-		new Icon("xtransceiver.png", "Once Jimmy recieved the C-Gear, he couldn't stop playing with it. He continuously went to the Entralink until his C-Gear was disabled via divine intervention."),
+		new Icon("xtransceiver.png", "Once Jimmy received the <b>C-Gear</b>, he couldn't stop playing with it. He continuously went to the Entralink until his C-Gear was disabled via divine intervention."),
 	],
 	
 	badges_info : {

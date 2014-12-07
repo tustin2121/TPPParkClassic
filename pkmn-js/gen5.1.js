@@ -78,7 +78,7 @@ addEvent(new Pokemon({
 	pokename : "Emboar",
 	nicknames : "",
 	level : 100,
-	caught: "0d 0h 16m: Recieved from Bianca",
+	caught: "0d 0h 16m: Received from Bianca",
 	ball : "poke",
 	memo : "",
 	
@@ -129,7 +129,7 @@ addEvent(new Pokemon({
 	OT: "Cly",
 	gender: 2,
 	gamename : "zzffzz&nbsp;zzw",
-	pokename : "Leavany",
+	pokename : "Leavanny",
 	nicknames : "",
 	level : 100,
 	caught: "0d 7h 27m: In Route 20 at level 6",
@@ -143,7 +143,7 @@ addEvent(new Pokemon({
 
 addEvent(new Pokemon({
 	skipme: true,
-	name : "Aepom Jr.",
+	name : "Aipom Jr.",
 	sprite: "img/pkmn/.png",
 	x: -18, y: 20,
 	
@@ -161,7 +161,7 @@ addEvent(new Pokemon({
 	level : 99,
 	caught: "0d 19h 37m: Recieved from a harlequin",
 	ball : "poke",
-	memo : "The grinding at the end of CLY's time failed to make Aepom Lv.100. It swept Red's team regardless.",
+	memo : "The grinding at the end of CLY's time failed to make Aipom Lv.100. It swept Red's team regardless.",
 	
 	ribbons : [
 		new HallOfFame_Ribbon("16d 5h 34m"),
@@ -215,7 +215,7 @@ addEvent(new Pokemon({
 	level : 100,
 	caught: "4d 2h 53m: Recieved from Rood",
 	ball : "poke",
-	memo : "Orignially N's Zorua. It's Illusion ability repeatedly confused the live updaters.",
+	memo : "Originally N's Zorua. It's Illusion ability repeatedly confused the live updaters.",
 	
 	ribbons : [
 		new HallOfFame_Ribbon("16d 5h 34m"),
@@ -245,7 +245,7 @@ addEvent(new Trainer({
 	e4attempts : 67,
 	blackouts : "",
 	
-	personality: "A quite dedicated trainer. A former singing idol, but seems to hve given up the life, especially as she only participated in the one Pokéstar Studios movie reuired for story progress.",
+	personality: "A quite dedicated trainer. A former singing idol, but seems to have given up the life, especially as she only participated in the one Pokéstar Studios movie required for story progress.",
 	notable: 
 		"Final team average level: 99.8333333<br/>"+
 		""+
