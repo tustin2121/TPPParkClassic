@@ -30,7 +30,7 @@ addEvent(new Trainer({
 	pokedex : "",
 	releasecount : 8,
 	catchcount : "",
-	e4attempts : "20 (1st); 27 (rematch),
+	e4attempts : "20 (1st); 27 (rematch)",
 	blackouts : "89+",
 	
 	personality: "",
