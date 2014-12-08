@@ -150,7 +150,7 @@ addEvent(new Pokemon({
 	dex : "img/pkdx/b/.png",
 	sources : {
 		"Sprite from Bulbapedia" : "",
-		"Pokedex Image from Bulbapedia" : "",
+		"Pokedex Image by /u/RT-Pickred" : "http://www.reddit.com/r/twitchplayspokemon/comments/2bff57/aipom_j_sprite_based_off_the_drawing_by_ustebanbg/",
 	},
 	
 	OT: "Cly",
