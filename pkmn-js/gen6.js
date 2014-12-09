@@ -227,6 +227,193 @@ addEvent(new Pokemon({
 	],
 }));
 
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Rotom",
+	sprite: "img/pkmn/master-geodude.png",
+	x: -30, y: -10,
+	
+	dex : "img/pkdx/b/Spr_4p_074.png",
+	sources : {
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "d",
+	gender: 0,
+	gamename : "!6696rsxtv8o.",
+	pokename : "Rotom",
+	nicknames : "",
+	level : 38,
+	caught: "3d 0h 3m: in the lost hotel",
+	memo : "",
+	ball: "master",
+	
+	ribbons : [
+		new Master_Ribbon(),
+	],
+}));
 
+
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Tiger",
+	sprite: "img/pkmn/.png",
+	x: -30, y: -10,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "d",
+	gender: 1,
+	gamename : "!taj11yygaaa",
+	pokename : "Charizard",
+	nicknames : "Italy",
+	level : 81,
+	caught: "0d 5h 13m: Received from Sycamore",
+	memo : "Was the mon most consistently capable of mega evolving.",
+	ball: "poke",
+	
+	ribbons : [
+		new HallOfFame_Ribbon("5d 5h 9m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Smogonsword",
+	sprite: "img/pkmn/.png",
+	x: -15, y: 20,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "d",
+	gender: 2,
+	gamename : "Oi!oiswhhve",
+	pokename : "Aigislash",
+	nicknames : "Oi! Oi! Rica Suave",
+	level : 92,
+	caught: "0d 2h 30m: Received in a trade from Dracyoshi",
+	memo : "",
+	ball: "", // ???
+	
+	ribbons : [
+		new Traded_Ribbon("For a Pikachu"),
+		new HallOfFame_Ribbon("5d 5h 9m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Sailor Moondoge",
+	sprite: "img/pkmn/.png",
+	x: -16, y: 20,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "d",
+	gender: 2,
+	gamename : "QQYyy25o6wf7",
+	pokename : "Absol",
+	nicknames : "",
+	level : 70,
+	caught: "1d 2h 49m: In Route 8 at level 15",
+	memo : "Moondoge came to warn us of a PC shuffle; unfortunately the warning came ever so slightly too late to be effective.",
+	ball: "net",
+	
+	ribbons : [
+		new HallOfFame_Ribbon("5d 5h 9m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Mucha Lucha",
+	sprite: "img/pkmn/.png",
+	x: -16, y: 20,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "d",
+	gender: 2,
+	gamename : "Hawlucha",
+	pokename : "Hawlucha",
+	nicknames : "Phoenix",
+	level : 72,
+	caught: "", // either '1d 12h 1m' or '1d 11h 54m'; tho sisters are nigh indistinguishable
+	memo : "One of two Hawlucha caught immediately after trying to make room in the party for a gift Lapras. Another attempt to make room in the party was needed soon after.",
+	ball: "",
+	
+	ribbons : [
+		new HallOfFame_Ribbon("5d 5h 9m"),
+	],
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Zapras",
+	sprite: "img/pkmn/.png",
+	x: -3, y: -2, // near Cruella, powering the PC.
+	adj_flip: true,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "d",
+	gender: 2,
+	gamename : "!&nbsp;♀o?04+6eAd",
+	pokename : "Lapras",
+	nicknames : "Odette",
+	level : 68,
+	caught: "2d 6h 10m: Recieved at level 30",
+	memo : "<p>d needed a surfer. There were Eevee in the nearby routes. d made the smart choice, and went for the Lapras immediately .</p><p>Held a Zap Plate for most of its tenure.</p>",
+	ball: "poke",
+	
+	ribbons : [
+		new HallOfFame_Ribbon("5d 5h 9m"),
+	],
+}).forOccasion("bloodysunday", {
+	x: -29, y: -5,
+	adj_flip: true,
+}));
+
+addEvent(new Pokemon({
+	skipme: true,
+	name : "Deer Lord",
+	sprite: "img/pkmn/.png",
+	x: -16, y: 20,
+	
+	dex : "img/pkdx/b/.png",
+	sources : {
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "d",
+	gender: 0,
+	gamename : "Xerneas",
+	pokename : "Xerneas",
+	nicknames : "",
+	level : 80,
+	caught: "3d 22h 6m: in the fifth battle",
+	memo : "",
+	ball: "dusk",
+	
+	ribbons : [
+		new HallOfFame_Ribbon("5d 5h 9m"),
+	],
+}));
 
 //TODO: Add Lil'D, but also the Laktu Cameraman following behind him.
