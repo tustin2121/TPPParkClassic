@@ -530,7 +530,7 @@ addEvent(new Trainer({
 	playtime: "17d 11h 39m",
 	pokedex : "52 own/206 seen",
 	releasecount : "4 (+22)",
-	catchcount : 0,
+	catchcount : "232 (+22)",
 	e4attempts : 49,
 	blackouts : 173,
 	

@@ -9,8 +9,9 @@
 	} else {
 		showGameClock("TPP ORAS Game Clock<br/>", date);
 	}
-})(); 
+})();
 
+// http://www.reddit.com/r/twitchplayspokemon/comments/2nza0c/tpp_sprite_complication_thread/
 
 
 addEvent(new Trainer({
@@ -43,6 +44,7 @@ addEvent(new Trainer({
 	icons : [
 		new Icon("contest_pass.png", "Not only did Arty enter contests, he even managed to win a few."),
 		new Icon("dowsing_machine.png", "The design of Arty's itemfinder makes him appear like his beloved bunnies. The cuteness is too much for many voices to bear."),
+		new Icon("eon_flute.png", ""),
 	],
 	
 	badges_info : {

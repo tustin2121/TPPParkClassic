@@ -199,13 +199,14 @@ addEvent(new Pokemon({
 }));
 
 addEvent(new Pokemon({
-	skipme: true,
-	name : "Mistress Vullaby",
-	sprite: "img/pkmn/.png",
-	x: -13, y: 20,
+	name : "Master Vullaby",
+	sprite: "img/pkmn/vullaby.png",
+	x: 17, y: -30,
 	
 	dex : "img/pkdx/b/Spr_5b_629.png",
 	sources : {
+		"Sprite by /u/Yoshord" : "",
+		"Pokedex Image from Bulbapedia" : "",
 	},
 	
 	OT: "GMYC&nbsp;&nbsp;",

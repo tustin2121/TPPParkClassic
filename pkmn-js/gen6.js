@@ -3,7 +3,11 @@
 //
 
 
-// TODO: Pokerus?
+// TODO: Pokerus Ribbons?
+
+// http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjb1p9n
+// http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjbf2eb
+// http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjyfn4t
 
 addEvent(new Pokemon({
 	skipme: true,
@@ -176,7 +180,7 @@ addEvent(new Pokemon({
 	level : 15,
 	caught: "0d 1h 38m: Received in a trade from Lloyd",
 	memo : "",
-	ball: "poke",
+	ball: "net",
 	
 	ribbons : [
 		new Traded_Ribbon("For a Pansage"),

@@ -8,6 +8,8 @@
 
 
 
+// http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjaxlm4
+
 addEvent(new Pokemon({
 	skipme: true,
 	name : "Scout",
