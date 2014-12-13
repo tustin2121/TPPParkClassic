@@ -26,7 +26,8 @@ addEvent(new Pokemon({
 	pokename : "Chespin",
 	nicknames : "",
 	level : "",
-	memo : "0d 0h 20m: Recieved as starter",
+	caught : "0d 0h 20m: Recieved as starter",
+	memo: "",
 	ball: "poke",
 	
 	ribbons : [
@@ -87,11 +88,12 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	skipme: true,
 	name : "Dr. 0",
-	sprite: "img/pkmn/.png",
-	x: -30, y: -10,
+	sprite: "img/pkmn/dr0.png",
+	x: -15, y: 15,
 	
 	dex : "img/pkdx/b/.png",
 	sources : {
+		"Sprite is flair by /u/GXRevolution" : "http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjb1p9n",
 		"Pokedex Image from Bulbapedia" : "",
 	},
 	

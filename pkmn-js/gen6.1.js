@@ -36,7 +36,7 @@ addEvent(new Trainer({
 	
 	personality: "",
 	notable: 
-		"<br/>"+
+		"Peak nap rate: 3.5 naps per minute<br/>"+
 		"",
 	ribbons: [
 	],

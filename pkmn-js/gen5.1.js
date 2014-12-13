@@ -146,12 +146,12 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	skipme: true,
 	name : "Aipom Jr.",
-	sprite: "img/pkmn/.png",
-	x: -18, y: 20,
+	sprite: "img/pkmn/aipom.png",
+	x: -29, y: 22,
 	
 	dex : "img/pkdx/b/.png",
 	sources : {
-		"Sprite from Bulbapedia" : "",
+		"Sprite is flair by /u/UDie2day" : "http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjaxlm4",
 		"Pokedex Image by /u/RT-Pickred" : "http://www.reddit.com/r/twitchplayspokemon/comments/2bff57/aipom_j_sprite_based_off_the_drawing_by_ustebanbg/",
 	},
 	
@@ -173,12 +173,12 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	skipme: true,
 	name : "Umbrellagator",
-	sprite: "img/pkmn/.png",
-	x: -19, y: 20,
+	sprite: "img/pkmn/umbrellagator.png",
+	x: 40, y: -15,
 	
 	dex : "img/pkdx/b/.png",
 	sources : {
-		"Sprite from Bulbapedia" : "",
+		"Sprite is flair by /u/UDie2day" : "http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjaxlm4",
 		"Pokedex Image from Bulbapedia" : "",
 	},
 	
@@ -200,12 +200,13 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	skipme: true,
 	name : "Zoro",
-	sprite: "img/pkmn/.png",
-	x: -20, y: 20,
+	sprite: "img/pkmn/zoroark.png",
+	x: 9, y: -36, // on stage
+	adj_flip: true,
 	
 	dex : "img/pkdx/b/.png",
 	sources : {
-		"Sprite from Bulbapedia" : "",
+		"Sprite is flair by /u/UDie2day" : "http://www.reddit.com/r/twitchplayspokemon/comments/2c1d3t/pokémon_x_flair_header_and_sidebar_suggestions/cjaxlm4",
 		"Pokedex Image from Bulbapedia" : "",
 	},
 	
