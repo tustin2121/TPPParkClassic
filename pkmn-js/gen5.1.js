@@ -265,8 +265,8 @@ addEvent(new Trainer({
 	
 	badges_info : {
 		img: "img/icn/badges_black2.png",
-		frame_width: 16,
-		frame_height: 16,
+		frame_width: 15,
+		frame_height: 25,
 	},
 	badges : [
 		new Badge({ name: "Basic Badge", leader: "Lenora", type: "Grass" }),
