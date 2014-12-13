@@ -61,6 +61,33 @@ addEvent(new Pokemon({
 	],
 }));
 
+addEvent(new Pokemon({
+	// http://www.reddit.com/r/twitchplayspokemon/comments/2b5icq/1080p_shiny_basculin_chat_included/
+	skipme: true,
+	name : "Basculin",
+	sprite: "img/pkmn/.png",
+	x: -37, y: -6,
+	
+	dex : "img/pkdx/b/Spr_5b_550B_s.png",
+	sources : {
+		"Sprite from Bulbapedia" : "",
+		"Pokedex Image from Bulbapedia" : "",
+	},
+	
+	OT: "--",
+	gender: 2,
+	gamename : "--",
+	pokename : "Basculin",
+	nicknames : "",
+	level : 58,
+	caught: "13d 15h 04m: Encountered by CLY",
+	ball : "",
+	memo : "TPP's fourth random shiny; defeated in battle.",
+	
+	ribbons : [
+	],
+}));
+
 
 addEvent(new Pokemon({
 	skipme: true,
@@ -161,7 +188,7 @@ addEvent(new Pokemon({
 	pokename : "Sceptile",
 	nicknames : "President",
 	level : 99,
-	caught: "0d 19h 37m: Recieved from a harlequin",
+	caught: "0d 19h 37m: Received from a harlequin",
 	ball : "poke",
 	memo : "The grinding at the end of CLY's time failed to make Aipom Lv.100. It swept Red's team regardless.",
 	
@@ -188,7 +215,7 @@ addEvent(new Pokemon({
 	pokename : "Feraligatr",
 	nicknames : "Termigator, Sobek",
 	level : 100,
-	caught: "1d 21h 4m: Recieved from a harlequin",
+	caught: "1d 21h 4m: Received from a harlequin",
 	ball : "poke",
 	memo : "Both alternate nicknames were used before this mon gained its current nickname from the name rater.",
 	
