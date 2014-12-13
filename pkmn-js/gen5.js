@@ -16,8 +16,8 @@
 addEvent(new Pokemon({
 	name : "Cat",
 	sprite: "img/pkmn/cat.png",
-	x: -4, y: 36,
-	adj_flip: true, adj_x: -2,
+	x: -5, y: 36,
+	adj_x: -6,
 	
 	dex : "img/pkdx/b/Spr_5b_509.png",
 	sources : {
@@ -97,8 +97,8 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	name : "Tympole",
 	sprite: "img/pkmn/tympole.png",
-	x: -5, y: 36,
-	adj_flip: true, adj_x: -6,
+	x: -4, y: 36,
+	adj_flip: true, adj_x: -2,
 	
 	dex : "img/pkdx/b/Spr_5b_535.png",
 	sources : {
@@ -125,8 +125,8 @@ addEvent(new Pokemon({
 addEvent(new Pokemon({
 	name : "J VOON",
 	sprite: "img/pkmn/cat.png",
-	x: -4, y: 35,
-	adj_x: 2, adj_y: 2,
+	x: -7, y: 36,
+	adj_flip: true, adj_x: 6,
 	
 	dex : "img/pkdx/b/Spr_5b_509.png",
 	sources : {
@@ -222,6 +222,8 @@ addEvent(new Pokemon({
 	ribbons : [
 		new Master_Ribbon(),
 	],
+}).forOccasion("100club", {
+	x: 35, y: -25,
 }));
 
 
