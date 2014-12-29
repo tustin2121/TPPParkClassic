@@ -419,6 +419,7 @@ addEvent(new Pokemon({
 	
 	ribbons : [
 		new HallOfFame_Ribbon("5d 5h 9m"),
+		new Record_Ribbon("First Boxart Mascot to enter Hall of Fame"),
 	],
 }));
 
