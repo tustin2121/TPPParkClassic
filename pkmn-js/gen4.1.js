@@ -397,6 +397,37 @@ addEvent(new Trainer({
 		null, //"img/icn/sun_stone.png",
 	],
 	
+	badges_info : {
+		img: "img/icn/badges_heartgold.png",
+		frame_width: 16,
+		frame_height: 16,
+	},
+	badges : [
+		new Badge({ name: "Jet Badge", leader: "Falkner", type: "Water" }),
+		// http://www.reddit.com/r/twitchplayspokemon/comments/26e3fo/jet_badge_design_idea/
+		new Badge({ name: "Powers Badge", leader: "Bugsy", type: "Ground" }),
+		// http://www.reddit.com/r/twitchplayspokemon/comments/26h4hi/the_new_badges_i_made_for_the_side_bar_d/
+		new Badge({ name: "Magnetic Badge", leader: "Whitney", type: "Steel" }),
+		// http://www.reddit.com/r/twitchplayspokemon/comments/26h4hi/the_new_badges_i_made_for_the_side_bar_d/
+		new Badge({ name: "Rock Badge", leader: "Morty", type: "Rock" }),
+		// http://www.reddit.com/r/twitchplayspokemon/comments/26mv9h/the_rock_badge/
+		new Badge({ name: "Badge", leader: "Chuck", type: "Fighting" }),
+		new Badge({ name: "Badge", leader: "Jasmine", type: "Dragon" }),
+		new Badge({ name: "Badge", leader: "Pryce", type: "Poison" }),
+		new Badge({ name: "Theif Badge", leader: "Clair", type: "Dark" }),
+		// http://www.reddit.com/r/twitchplayspokemon/comments/26wvte/the_thief_badge/
+		
+		new Badge({ name: "Badge", leader: "Brock", type: "Ice" }),
+		new Badge({ name: "Badge", leader: "Misty", type: "Fire" }),
+		new Badge({ name: "Badge", leader: "Lt. Surge", type: "Bug" }),
+		new Badge({ name: "Badge", leader: "Erika", type: "Electric" }),
+		new Badge({ name: "Badge", leader: "Janine", type: "Grass" }),
+		new Badge({ name: "Harmony Badge", leader: "Sabrina", type: "Normal" }),
+		// http://www.reddit.com/r/twitchplayspokemon/comments/23iywq/sabrinas_harmony_badge/
+		new Badge({ name: " Badge", leader: "Blaine", type: "Psychic" }),
+		new Badge({ name: " Badge", leader: "Blue", type: "Flying" }),
+	],
+	
 	behavior: null,
 }));
 
